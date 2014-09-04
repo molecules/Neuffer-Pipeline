@@ -230,48 +230,17 @@ sub name_with_underscores {
 
     perl Neuffer/Pipeline.pm --infile input_filename --config dokuwiki.config
 
-=head1 DESCRIPTION
-
-    A full description of the module and its features.
-    May include numerous subsections (i.e., =head2, =head3, etc.).
-
-=head1 SUBROUTINES/METHODS
-
-
-=head1 DIAGNOSTICS
-
-    A list of every error and warning message that the module can generate
-    (even the ones that will "never happen"), with a full explanation of each
-    problem, one or more likely causes, and any suggested remedies.  (See also
-    "Documenting Errors" in PBP Chapter 13.)
-
-=head1 CONFIGURATION AND ENVIRONMENT
-
-     A full explanation of any configuration system(s) used by the module,
-     including the names and locations of any configuration files, and the
-     meaning of any environment variables or properties that can be set. These
-     descriptions must also include details of any configuration language
-     used.  (See also "Configuration Files" in PBP Chapter 19.)
-
 =head1 DEPENDENCIES
 
-     A list of all the other modules that this module relies upon, including
-     any restrictions on versions, and an indication of whether these required
-     modules are part of the standard Perl distribution, part of the module's
-     distribution, or must be installed separately.
+    Getopt::Long::Descriptive
+    Neuffer::RenderPhenoGroupWikiPage
 
 =head1 INCOMPATIBILITIES
 
-    None known
+    Only tested on Linux systems.
 
 =head1 BUGS AND LIMITATIONS
 
      There are no known bugs in this module.
      Please report problems to the author.
      Patches are welcome.
-
-=head1 SEE ALSO
-
-=head1 ACKNOWLEDGEMENTS
-
-    POD templates adapted from Perl Best Practices by Damian Conway
