@@ -1,0 +1,3 @@
+Revision History for Neuffer-Pipeline
+
+0.0005 Now closes filehandle before uploading pages.

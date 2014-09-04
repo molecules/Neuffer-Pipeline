@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Perl module name is expected to be the first argument
+PERL_MODULE_NAME=$1
+
+# Remove perl module name from $@
+shift
+
+# Find out the location of this module, so that we can run it directly
+PERL_MODULE_PATH=`perldoc -l $PERL_MODULE_NAME`
+
+# Run it
+perl $PERL_MODULE_PATH $@

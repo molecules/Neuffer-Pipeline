@@ -1,0 +1,2 @@
+#!/bin/bash
+run_perl_module 'Neuffer::Pipeline' $@
